@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import App from 'commander'
 import { converter } from './converter'
 import { readFromFile, readCurrentDir } from './reader'
