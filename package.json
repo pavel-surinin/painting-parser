@@ -1,0 +1,24 @@
+{
+  "name": "painting-crop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "target/out/app.js",
+  "scripts": {
+    "build": "tsc",
+    "launch": "node target/out/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.7.5",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "jimp": "^0.9.3",
+    "n-readlines": "^1.0.0"
+  },
+  "bin": {
+    "pp": "./target/out/app.js"
+  }
+}
